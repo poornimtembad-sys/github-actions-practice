@@ -16,6 +16,6 @@ jobs:
         
       - name: Install Linter
         uses: pip install ruff
-      - 
+      
     
   
