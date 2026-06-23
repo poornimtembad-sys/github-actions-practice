@@ -6,7 +6,8 @@ on:
   push:
     paths: "*.py"
 jobs:
-  code:
+
+  code-linting:
     runs-on: ubuntu-latest
     # this step will automatically clone the code of the current branch into runner
     steps: 
